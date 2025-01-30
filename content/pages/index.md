@@ -114,7 +114,7 @@ sections:
       autoplay: false
       loop: true
       muted: true
-      controls: true
+      controls: false
       aspectRatio: '16:9'
   - type: ContactSection
     colors: colors-f
