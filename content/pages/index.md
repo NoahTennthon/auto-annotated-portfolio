@@ -11,7 +11,7 @@ backgroundImage:
   opacity: 75
 sections:
   - type: MediaGallerySection
-    title: CONTENT
+    title: I WORK
     subtitle: with these programs!
     images:
       - type: ImageBlock
