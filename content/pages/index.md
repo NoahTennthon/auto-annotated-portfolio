@@ -12,7 +12,7 @@ backgroundImage:
 sections:
   - type: MediaGallerySection
     title: CONTENT
-    subtitle: for all types of programs!
+    subtitle: with these programs!
     images:
       - type: ImageBlock
         altText: logo one
