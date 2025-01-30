@@ -15,7 +15,6 @@ sections:
     subtitle: This is the subtitle
     images:
       - type: ImageBlock
-        url: /images/logo1.svg
         altText: logo one
         caption: Caption of the image
         elementId: ''
