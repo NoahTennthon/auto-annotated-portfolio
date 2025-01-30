@@ -21,6 +21,52 @@ sections:
           - pb-36
         justifyContent: center
         borderWidth: 1
+  - type: HeroSection
+    title: HELLO WORLD
+    subtitle: BLAH BLAH BLAH
+    actions:
+      - type: Button
+        label: Hire me
+        altText: ''
+        url: /
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
+    colors: colors-a
+    backgroundSize: full
+    elementId: ''
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-36
+          - pb-48
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: row-reverse
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    media:
+      type: VideoBlock
+      title: Title of the video
+      url: 'https://youtu.be/BD-YliszGkA'
+      elementId: ''
+      autoplay: true
+      loop: true
+      muted: true
+      controls: false
+      aspectRatio: '4:3'
   - type: MediaGallerySection
     title: I WORK
     subtitle: with these programs!
@@ -70,52 +116,6 @@ sections:
         textAlign: center
       subtitle:
         textAlign: center
-  - type: HeroSection
-    title: HELLO WORLD
-    subtitle: BLAH BLAH BLAH
-    actions:
-      - type: Button
-        label: Hire me
-        altText: ''
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-    colors: colors-a
-    backgroundSize: full
-    elementId: ''
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-36
-          - pb-48
-          - pl-4
-          - pr-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row-reverse
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
-    media:
-      type: VideoBlock
-      title: Title of the video
-      url: 'https://youtu.be/BD-YliszGkA'
-      elementId: ''
-      autoplay: true
-      loop: true
-      muted: true
-      controls: false
-      aspectRatio: '4:3'
   - type: ContactSection
     colors: colors-f
     backgroundSize: full
