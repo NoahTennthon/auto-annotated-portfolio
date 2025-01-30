@@ -113,7 +113,7 @@ sections:
       elementId: ''
       autoplay: false
       loop: true
-      muted: false
+      muted: true
       controls: true
       aspectRatio: '16:9'
   - type: ContactSection
